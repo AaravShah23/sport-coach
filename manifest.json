@@ -1,0 +1,40 @@
+{
+  "name": "Sport Coach",
+  "short_name": "Sport Coach",
+  "description": "Your gym tracker, nutrition logger and social fitness community",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0c0c",
+  "theme_color": "#0c0c0c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/0c0c0c/d4f041?text=SC",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/0c0c0c/d4f041?text=SC",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "sports"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Log Workout",
+      "short_name": "Log",
+      "description": "Start logging today's session",
+      "url": "/?action=log"
+    },
+    {
+      "name": "Nutrition",
+      "short_name": "Nutrition",
+      "description": "Log your food",
+      "url": "/?action=nutrition"
+    }
+  ]
+}
